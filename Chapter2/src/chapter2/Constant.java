@@ -1,0 +1,16 @@
+package chapter2;
+
+public class Constant {
+
+	public static void main(String[] args) {
+		final int MAX_NUM = 100; //보통 상수는 대문자로 한다
+		final float PI = 3.14f; // 상수는 변할 수 없는 수
+		
+		final int STUDENT_NUM = 30;
+		int num = 0;
+		if (num == STUDENT_NUM) {}
+		
+		System.out.println(STUDENT_NUM);
+	}
+
+}
