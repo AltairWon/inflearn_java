@@ -14,5 +14,6 @@ public class FunctionTest {
 	public static int addNum(int n1, int n2) { //method
 		int result = n1 + n2;
 		return result; //return if there is no return value, put 'void' instead of 'int' in static
+		//리턴 값을 생성을 하지 않을때는 void 를 사용을 한다.
 	}
 }
