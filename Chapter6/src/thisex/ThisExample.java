@@ -5,7 +5,7 @@ class BirthDay{
 	int month;
 	int year;
 	
-	public void setYear(int year) {
+	public void setYear(int year) { // 여기의 year는 지역변수
 		this.year = year; //이름이 같을 변수명이면 this.year로 선언을 하는 것이 좋다.
 						  //this = 자기 자신의 메모리를 가리킴. 생성된 메모리의 주소를 가리킴.
 	}
