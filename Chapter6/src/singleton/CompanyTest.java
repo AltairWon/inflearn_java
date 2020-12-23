@@ -8,9 +8,9 @@ public class CompanyTest {
 		
 		Company c2 = Company.getInstance();
 		
-		Company c3 = new Company(); //error가 나오
+		Company c3 = new Company(); //error가 나오고
 		
-		System.out.println(c1 = c2); //true가 나오게 해라. 문제 예
+		System.out.println(c1 = c2); //true가 나오게 해라. 문제 예시
 		
 		System.out.println(c1);
 		System.out.println(c2);
