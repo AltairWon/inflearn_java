@@ -17,7 +17,7 @@ public class CustomerTest1 {
 		//System.out.println(customerLee.showCustomerInfo());
 		System.out.println(customerKim.showCustomerInfo());
 		
-		//코딩공부는 꺼꿀로 코딩을 하는 방법도 좋다.
+		//코딩공부는 꺼꾸로 코딩을 하는 방법도 좋다.
 	}
 
 }
