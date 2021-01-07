@@ -9,7 +9,7 @@ public class CustomerTest1 {
 		customerLee.setCustomerName("Lee");
 		*/
 		
-		Customer customerKim = new VIPCustomer(10111, "Kim"); //이게 가능하다. 업캐스팅
+		Customer customerKim = new VIPCustomer(10111, "Kim", 100); //이게 가능하다. 업캐스팅
 		//하지만 이때는 Customer 클래스의 멤버 변수와 메서드만 사용가능!
 
 		customerKim.bonusPoint = 105;
