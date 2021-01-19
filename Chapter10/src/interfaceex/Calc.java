@@ -9,4 +9,8 @@ public interface Calc { //interface = 모든 메소드가 추상 클래스로 �
 	int subtract(int num1, int num2);
 	int times(int num1, int num2);
 	int divide(int num1, int num2);
+	
+	default void description() {
+		System.out.println("점수 계기를 구현합니다.");
+	}
 }
