@@ -13,4 +13,12 @@ public interface Calc { //interface = 모든 메소드가 추상 클래스로 �
 	default void description() {
 		System.out.println("점수 계기를 구현합니다.");
 	}
+	
+	static int total(int[] arr) {
+		int total = 0;
+		for(int i:arr) {
+			total += i;
+		}
+		return total;
+	}
 }
